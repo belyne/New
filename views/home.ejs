@@ -8,13 +8,25 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>SCHOOL MANAGEMENT SYSTEM</h1>
+  <h1>HOME</h1>
   <h3>Welcome to the School Management System</h3>
   <section>
+    <div>
+      <img src="images/school.jpg" alt="skul">
+    </div>
     <div>
       <a href="./signup"><button>SingUp</button></a>
       <a href="./login"><button>LogIn</button></a>
     </div>
   </section>
+
+  <footer>
+    <p>&copy; School Management System <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
 </body>
 </html>

@@ -10,7 +10,7 @@
 
 <body>
   <h1>Welcome <%= user.username %>!</h1>
-  <p>Welcome to our dashboard Menu.</p>
+  <h3>Welcome to our dashboard Menu.</h3>
   <div>
     <ul>
       <li>Admission/Registration</li>
@@ -21,6 +21,15 @@
     </ul>
   </div>
   <a href="./logout"><button>Logout</button></a>
+
+  <footer>
+    <p>&copy; School Management System <span id="year"></span></p>
+  </footer>
+  
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  
 </body>
 
 </html>

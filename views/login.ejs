@@ -18,6 +18,15 @@
     <button type="submit">Login</button>
   </form>
   <p>Don't have an account? <a href="/signup">Sign up here</a>.</p>
+
+  <footer>
+    <p>&copy; School Management System <span id="year"></span></p>
+  </footer>
+  
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  
 </body>
 
 </html>

@@ -30,7 +30,6 @@ button {
   display: inline-block;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 button:hover {
@@ -42,8 +41,18 @@ p {
   text-align: center;
   margin-top: 20px;
   color: #000;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
+}
+
+/* CSS styles for the image */
+img {
+  max-width: 100%;
+  height: 20%;
+  padding: 0 20px 20px 0;
+  display: block;
+  margin: 0 auto;
+
 }
 
 a {
@@ -102,4 +111,15 @@ input {
   border: 1px solid #ddd;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+/* CSS styles for the footer */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  color: white;
 }
